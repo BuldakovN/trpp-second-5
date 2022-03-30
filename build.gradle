@@ -80,3 +80,9 @@ checkstyleMain {
 checkstyleTest {
     source ='src/test/java'
 }
+
+jar {
+    manifest {
+        attributes "Main-Class": "ru.mirea.trpp_second_5.Application"
+    }
+}
